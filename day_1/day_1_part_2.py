@@ -47,7 +47,7 @@ def last_digit(df, lasts):
     lasts += last_digit
     return lasts
 
-with open('day_1_data.txt', 'r') as file:
+with open('day_1/day_1_data.txt', 'r') as file:
     lines = file.readlines()
 
 answers_first = [first_digit(line.strip(), firsts) for line in lines]

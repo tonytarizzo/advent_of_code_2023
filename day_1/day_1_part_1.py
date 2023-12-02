@@ -25,7 +25,7 @@ def find_digits(df):
 
     return total_digits
 
-with open('day_1_data.txt', 'r') as file:
+with open('day_1/day_1_data.txt', 'r') as file:
     lines = file.readlines()
 
 answers = [find_digits(line.strip()) for line in lines]
