@@ -67,4 +67,3 @@ sorted_df['rank'] = sorted_df.index + 1
 sorted_df['score'] = sorted_df['rank'] * sorted_df['bid'].astype(int)
 total = sum(sorted_df['score'])
 print(total)
-
